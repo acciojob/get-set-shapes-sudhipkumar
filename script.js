@@ -14,7 +14,7 @@ class Rectangle {
 	}
 
 	getArea(){
-		console.log(this._width * this._height);
+		return this._width*this._height;
 	}
 }
 
@@ -25,20 +25,21 @@ class Square extends Rectangle {
 	}
 
 	getPerimeter(){
-		return 4*side;
+		return 4 * this.side;
 	}
 }
 
 // const rectangle = new Rectangle(5, 10);
-// console.log(rectangle.width); // Output: 5
-// console.log(rectangle.height); // Output: 10
-// console.log(rectangle.getArea()); // Output: 50
+// console.log(rectangle.width); 
+// console.log(rectangle.height); 
+// console.log(rectangle.getArea()); 
 
 // const square = new Square(7);
-// console.log(square.width); // Output: 7
-// console.log(square.height); // Output: 7
-// console.log(square.getArea()); // Output: 49
-// console.log(square.getPerimeter()); // Output: 28
+// console.log(square.width); 
+// console.log(square.height);
+// console.log(square.getArea());
+// console.log(square.getPerimeter());
+
 
 
 // Do not change the code below this line
